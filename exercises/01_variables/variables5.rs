@@ -10,4 +10,15 @@ fn main() {
     println!("Spell a Number : {}", number);
     number = 3; // don't rename this variable
     println!("Number plus two is : {}", number + 2);
+
+    // shadow
+    let x = 5;
+    let x = x + 1;
+    let x = x * 2;
+    println!("The value of y is: {}", y);
+
+    // shadow and change type
+    let abc = "ABC";
+    let abc = abc.len();
+    println!("The value of abc is: {}", abc);
 }

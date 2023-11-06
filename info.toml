@@ -103,6 +103,14 @@ under 'Constants' in the book's section 'Variables and Mutability':
 https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#constants
 """
 
+[[exercises]]
+name = "variables7"
+path = "exercises/01_variables/variables7.rs"
+mode = "compile"
+hint = """
+A dangling pointer.
+"""
+
 # FUNCTIONS
 
 [[exercises]]

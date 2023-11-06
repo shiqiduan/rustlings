@@ -180,6 +180,33 @@ They are not the same. There are two solutions:
 1. Add a `return` ahead of `num * num;`
 2. remove `;`, make it to be `num * num`"""
 
+
+# Reference
+
+[[exercises]]
+name = "reference01"
+path = "exercises/24_reference/reference01.rs"
+mode = "compile"
+hint = """
+A long-live container.
+"""
+
+[[exercises]]
+name = "reference02"
+path = "exercises/24_reference/reference02.rs"
+mode = "compile"
+hint = """
+A invalid function.
+"""
+
+[[exercises]]
+name = "reference03"
+path = "exercises/24_reference/reference03.rs"
+mode = "compile"
+hint = """
+Multiple references into an array.
+"""
+
 # IF
 
 [[exercises]]

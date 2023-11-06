@@ -47,4 +47,10 @@ mod tests {
         assert_eq!(your_order.item_number, order_template.item_number);
         assert_eq!(your_order.count, 1);
     }
+
+    fn update() {
+        let order1 = create_order_template();
+        let order2 = Order { ..order1 };
+        assert_eq!(order2.name, order1.name);
+    }
 }

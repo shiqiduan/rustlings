@@ -111,6 +111,14 @@ hint = """
 A dangling pointer.
 """
 
+[[exercises]]
+name = "variables8"
+path = "exercises/01_variables/variables8.rs"
+mode = "compile"
+hint = """
+A borrowing view.
+"""
+
 # FUNCTIONS
 
 [[exercises]]
